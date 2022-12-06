@@ -44,7 +44,8 @@ class Updater {
             .Where(t => t.GetTypeInfo().IsClass && typeof(Solver).IsAssignableFrom(t))
             .Select(tsolver => SolverExtensions.Year(tsolver));
 
-        UpdateProjectReadme(years.Min(), years.Max());
+        // Using a static project Readme file so don't need this
+        // UpdateProjectReadme(years.Min(), years.Max());
         UpdateReadmeForYear(calendar);
         UpdateSplashScreen(calendar);
         UpdateReadmeForDay(problem);
