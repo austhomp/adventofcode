@@ -67,9 +67,9 @@ class Solution : Solver {
         Stack<char>[] updatedStacks = initialStacks.Stacks;
         foreach (var line in problemMoves)
         {
-            Console.WriteLine(line);
+            //Console.WriteLine(line);
             var (count, src, dest) = ParseMoveLine(line);
-            Console.WriteLine($"moving {count} from {src} to {dest}");
+            //Console.WriteLine($"moving {count} from {src} to {dest}");
             for (int i = 0; i < count; i++)
             {
                 var val = updatedStacks[src-1].Pop();
@@ -84,9 +84,9 @@ class Solution : Solver {
         Stack<char>[] updatedStacks = initialStacks.Stacks;
         foreach (var line in problemMoves)
         {
-            Console.WriteLine(line);
+            //Console.WriteLine(line);
             var (count, src, dest) = ParseMoveLine(line);
-            Console.WriteLine($"moving {count} from {src} to {dest}");
+            //Console.WriteLine($"moving {count} from {src} to {dest}");
             
             // store on a temporary stack so that when we pop the values off it will restore the original order
             var temp = new Stack<char>();
