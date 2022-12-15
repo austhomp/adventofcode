@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
 namespace AdventOfCode.Y2022.Day07;
 
 [ProblemName("No Space Left On Device")]      
@@ -134,7 +130,7 @@ class Solution : Solver {
     }
 
     const string TestCase =
-        @"$ cd /
+@"$ cd /
 $ ls
 dir a
 14848514 b.txt

@@ -1,4 +1,3 @@
-using System.Linq;
 using AdventOfCode.Model;
 
 namespace AdventOfCode.Generator;
