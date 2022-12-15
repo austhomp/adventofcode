@@ -54,7 +54,7 @@ class Solution : Solver {
         {
             var startPositions = GetMarkerLocations(testCase.Key, 14);
             var first = startPositions.First() + 1;
-            Console.WriteLine($"Part 2 est case expected {testCase.Value} actual was {first} which is {testCase.Value == first}");
+            Console.WriteLine($"Part 2 test case expected {testCase.Value} actual was {first} which is {testCase.Value == first}");
         }
 
         return GetMarkerLocations(input, 14).First() + 1;
