@@ -1,5 +1,5 @@
 
-# Advent of Code (2022 - until I stop)
+# Advent of Code 2022
 C# solutions to the Advent of Code problems.
 Check out https://adventofcode.com.
 
